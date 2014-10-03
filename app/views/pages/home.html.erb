@@ -1,0 +1,29 @@
+<div id="landing-body-bg"></div>
+<div id="welcome-container">
+  <div class="logo center"><h1>HK</h1></div>
+  <br><br>
+  <span class="element"></span>
+  <br><br>
+  <div id="enter-btn" class="hide"><%= link_to '[ enter ]', blog_index_path %></div>
+</div>
+
+<footer id="landing-page"><%= link_to 'skip', blog_index_path %></footer>
+
+
+<!-- Typing Effect -->
+<script src="jquery.js"></script>
+<script src="typed.js"></script>
+<script>
+  $(function(){
+      $(".element").typed({
+        strings: ["Hey ninja.", "Thanks for coming.", "I'm Han--", "a midnight marauder", "a disciple of design", "and an ardent lover.", "Welcome to my thoughts."],
+        typeSpeed: 20,
+        backSpeed: 0,
+        startDelay: 1000,
+        backDelay: 1000,
+        callback: function(){
+          $('#enter-btn').delay(1500).fadeIn("slow");
+        }
+      });
+  });
+</script>
