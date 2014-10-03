@@ -1,7 +1,7 @@
-<%= display_meta_tags :title => 'Hello, I\'m Han.' %>
-<%= display_meta_tags :description => 'Explore my intellect.' %>
-<%= display_meta_tags :author => 'Han Kim' %>
-<%= display_meta_tags :og => { :title => 'Hello, I\'m Han', :description => 'Explore my intellect.', :url => "http://www.hellohankim.com", :type => "website", :image => '/images/han.jpg' } %>
+<% set_meta_tags :title => 'Hello, I\'m Han.',
+                 :description => 'Explore my intellect.',
+                 :author => 'Han Kim',
+                 :og => { :title => 'Hello, I\'m Han.', :description => 'Explore my intellect.', :url => "http://www.hellohankim.com/", :type => "website", :image => '/images/han.jpg' } %>
 
 <header>
   <div class="logo-sm"><a href="/"><h1>HK</h1></a></div>
