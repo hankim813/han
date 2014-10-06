@@ -14,6 +14,8 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 group :development, :test do
   gem 'spring'
   gem 'sqlite3'
+  gem 'better_errors', '~> 2.0.0'
+  gem 'binding_of_caller', '~> 0.7.2'
 end
 
 group :production do
