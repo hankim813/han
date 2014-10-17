@@ -145,22 +145,22 @@
     height: 100px;
     box-shadow: 1px 1px 1px #BDBDBD;
     overflow: hidden;
+    margin-bottom: 3%;
   }
 
   .article-box img {
-    margin-top: -40%;
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 0;
-    opacity: 1;
+    opacity: 0.8;
     transition: all 0.3s ease;
     -webkit-backface-visibility: hidden;
   }
 
   .article-box img:hover {
-    opacity: 0.8;
+    opacity: 1;
     transition: all 0.3s ease;
     -webkit-backface-visibility: hidden;
   }
@@ -183,7 +183,7 @@
     left: 5%;
     z-index: 5;
     color: #FFF;
-    font-size: 0.7em;
+    font-size: 0.6em;
     margin: 0;
     padding: 0;
     font-family: 'Inconsolata';
@@ -325,7 +325,7 @@
     font-size: 0.8em;
     line-height: 1.2em;
     font-family: 'Inconsolata';
-    color: #2E2E2E;
+    color: #444444;
   }
 
   .date {
@@ -541,25 +541,24 @@
   .article-box {
     position: relative;
     width: 100%;
-    height: 120px;
+    height: 170px;
     box-shadow: 1px 1px 1px #BDBDBD;
     overflow: hidden;
   }
 
   .article-box img {
-    margin-top: -35%;
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 0;
-    opacity: 1;
+    opacity: 0.8;
     transition: all 0.3s ease;
     -webkit-backface-visibility: hidden;
   }
 
   .article-box img:hover {
-    opacity: 0.8;
+    opacity: 1;
     transition: all 0.3s ease;
     -webkit-backface-visibility: hidden;
   }
@@ -690,7 +689,7 @@
     font-size: 1em;
     line-height: 1.2em;
     font-family: 'Inconsolata';
-    color: #2E2E2E;
+    color: #444444;
   }
 
   .date {
@@ -822,25 +821,24 @@
   .article-box {
     position: relative;;
     width: 100%;
-    height: 130px;
+    height: 160px;
     box-shadow: 1px 1px 1px #BDBDBD;
     overflow: hidden;
   }
 
   .article-box img {
-    margin-top: -30%;
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 0;
-    opacity: 1;
+    opacity: 0.8;
     transition: all 0.3s ease;
     -webkit-backface-visibility: hidden;
   }
 
   .article-box img:hover {
-    opacity: 0.8;
+    opacity: 1;
     transition: all 0.3s ease;
     -webkit-backface-visibility: hidden;
   }
@@ -859,11 +857,12 @@
   .article-box p {
     position: absolute;
     width: 50%;
-    top: 55%;
+    top: 65%;
     left: 5%;
     z-index: 5;
     color: #FFF;
-    font-size: 1em;
+    font-size: 0.8em;
+    line-height: 1em;
     margin: 0;
     padding: 0;
     font-family: 'Inconsolata';
@@ -970,7 +969,7 @@
     font-size: 1em;
     line-height: 1.2em;
     font-family: 'Inconsolata';
-    color: #2E2E2E;
+    color: #444444;
   }
 
   .date {
@@ -1234,19 +1233,18 @@
   }
 
   .article-box img {
-    margin-top: -35%;
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 0;
-    opacity: 1;
+    opacity: 0.8;
     transition: all 0.3s ease;
     -webkit-backface-visibility: hidden;
   }
 
   .article-box img:hover {
-    opacity: 0.8;
+    opacity: 1;
     transition: all 0.3s ease;
     -webkit-backface-visibility: hidden;
   }
@@ -1365,9 +1363,9 @@
 
   .blog-content-container p {
     font-size: 1.5em;
-    line-height: 1.3em;
+    line-height: 1.5em;
     font-family: 'Inconsolata';
-    color: #2E2E2E;
+    color: #444444;
   }
 }
 
@@ -1385,7 +1383,7 @@
 
   .cover-title h1 {
     font-size: 5em;
-    width: 70%;
+    width: 75%;
     padding: 0;
     margin: 0 0 3% 0;
     color: #FFF;
