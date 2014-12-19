@@ -2,6 +2,9 @@
 @import url(http://fonts.googleapis.com/css?family=Patua+One);
 @import url(http://fonts.googleapis.com/css?family=Inconsolata:400,700);
 
+body {
+  -webkit-font-smoothing: antialiased;
+}
 
 /* iPhone 4 */
 
@@ -326,6 +329,17 @@
     line-height: 1.2em;
     font-family: 'Inconsolata';
     color: #444444;
+  }
+
+  .blog-content-container a {
+    text-decoration: none;
+    color: #2E64FE;
+    transition: all 0.2s ease-out;
+  }
+
+  .blog-content-container a:hover {
+    color: #0040FF;
+    transition: all 0.2s ease-out;
   }
 
   .date {
